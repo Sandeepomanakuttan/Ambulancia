@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Ambulancia</string>
+    <string name="safe">Move with Safety</string>
+    <string name="get">Get Started</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="quotes">Connect neartest Ambulance \n Instantly in Emargency</string>
+    <string name="wl">Welcome to the Driver app</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="to_hire_with_ambulance">to hire with ambulance</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="_7907492539">7907492539</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="login_page">Login Page</string>
+    <string name="textview">TextView</string>
+    <string name="do_you_create_new_one">Do you create New one..?</string>
+    <string name="let_s_start_with_creating_new_account">Let\'s start with creating \n new account</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="city">City</string>
+    <string name="term">By proceeding, I agree to Uber\'s Terms of Use and \n acknowledge that I have read the Privacy Policy.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dia">Choose how you’d like to help \n with Amber</string>
+    <string name="mini_ambulance_owner">Mini Ambulance Owner</string>
+    <string name="desc">You wish to attach your ambulance with Amber.\n You may driver yourself,or employ other drivers</string>
+    <string name="advance_ambulance_owner">Advance Ambulance Owner</string>
+    <string name="free_ambulance_owner">Free Ambulance Owner</string>
+</resources>
