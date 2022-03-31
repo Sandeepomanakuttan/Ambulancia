@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ambulancia">
         <activity
-            android:name=".Registraction.RegistractionActivity"
+            android:name=".View.Registraction.OtpVerification"
+            android:exported="false" />
+        <activity
+            android:name=".View.Registraction.RegistractionActivity"
             android:exported="false" />
         <activity
             android:name=".View.Common.LoginPage"

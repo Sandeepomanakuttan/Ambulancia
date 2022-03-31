@@ -1,5 +1,5 @@
 
-package com.example.sandeep.ambulancia.Registraction
+package com.example.sandeep.ambulancia.View.Registraction
 
 import android.os.Bundle
 import android.view.WindowManager
@@ -8,6 +8,8 @@ import com.example.sandeep.ambulancia.R
 import com.example.sandeep.ambulancia.databinding.ActivityRegistractionBinding
 
 class RegistractionActivity : AppCompatActivity() {
+
+
     var bind:ActivityRegistractionBinding?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,9 +20,15 @@ class RegistractionActivity : AppCompatActivity() {
 
         bind?.btnNext?.setOnClickListener {
 
-            supportFragmentManager.beginTransaction().replace(R.id.registractionPage,SelectionVehicles()).commit()
+            supportFragmentManager.beginTransaction().replace(R.id.registractionPage,
+                OtpVerificationFragment()
+            ).commit()
 
         }
 
+    }
+
+    interface IOnBackPressed {
+        fun onBackPressed(): Boolean
     }
 }

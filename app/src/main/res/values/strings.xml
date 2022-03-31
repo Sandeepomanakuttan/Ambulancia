@@ -39,4 +39,18 @@
     <string name="desc">You wish to attach your ambulance with Amber.\n You may driver yourself,or employ other drivers</string>
     <string name="advance_ambulance_owner">Advance Ambulance Owner</string>
     <string name="free_ambulance_owner">Free Ambulance Owner</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_a_one_time_password_on">We will send a one time password on</string>
+    <string name="th">this</string>
+    <string name="don_t_receive_the_otp">Don\'t receive the OTP..?</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+    <string name="welcome">Welcome ,</string>
+    <string name="required_steps">Required steps</string>
+    <string name="here_s_what_you_need_to_do_to_set_up_n_your_account">Here\'s what you need to do to set up \n your account</string>
+    <string name="completed">Completed</string>
+    <string name="submitted">Submitted</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="get_started">Get Started</string>
+
 </resources>
