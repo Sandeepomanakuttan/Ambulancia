@@ -52,5 +52,35 @@
     <string name="submitted">Submitted</string>
     <string name="profile_photo">Profile Photo</string>
     <string name="get_started">Get Started</string>
+    <string name="title_activity_admin_home">AdminHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_admin_main">AdminMainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_user">User</string>
+    <string name="_100">100</string>
+    <string name="total">Total</string>
+    <string name="_0">0</string>
+    <string name="request">Request</string>
+    <string name="sandeep_omanakuttan">Sandeep omanakuttan</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="comform_password">Enter your Conform Password</string>
+    <string name="enter_password">Enter your Password</string>
+    <string name="enter_your_phone">Enter your Phone</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="profile">Profile</string>
+    <string name="remove">Remove</string>
+    <string name="view">View</string>
 
 </resources>

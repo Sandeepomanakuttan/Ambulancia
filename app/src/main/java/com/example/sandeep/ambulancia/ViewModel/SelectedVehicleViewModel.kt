@@ -1,11 +1,13 @@
 package com.example.sandeep.ambulancia.ViewModel
 
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class SelectedVehicleViewModel: ViewModel() {
-    fun getted(): String {
 
-        return "clicked"
-    }
+
+
+    var s=MutableLiveData<String>()
+
 
 }

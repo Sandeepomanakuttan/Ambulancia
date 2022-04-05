@@ -1,4 +1,4 @@
-package com.example.sandeep.ambulancia.View.Common
+package com.example.sandeep.ambulancia.view.Common
 
 import android.content.Intent
 import android.os.Bundle

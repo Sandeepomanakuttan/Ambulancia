@@ -10,21 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ambulancia">
         <activity
-            android:name=".View.Registraction.OtpVerification"
+            android:name=".view.admin.AdminMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_main" />
+        <activity
+            android:name=".view.registraction.Driver.RegistractionActivity"
             android:exported="false" />
         <activity
-            android:name=".View.Registraction.RegistractionActivity"
+            android:name=".view.Common.LoginPage"
             android:exported="false" />
         <activity
-            android:name=".View.Common.LoginPage"
-            android:exported="false" />
-        <activity
-            android:name=".View.Common.ControlActivity"
+            android:name=".view.Common.ControlActivity"
             android:exported="false"
             android:label="@string/title_activity_control"
             android:theme="@style/Theme.Ambulancia.NoActionBar" />
         <activity
-            android:name=".View.Common.SplashScreen"
+            android:name=".view.Common.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "316018344691",
+    "firebase_url": "https://ambulancia-cd8b1-default-rtdb.firebaseio.com",
+    "project_id": "ambulancia-cd8b1",
+    "storage_bucket": "ambulancia-cd8b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316018344691:android:84a80ebb711636a1fded86",
+        "android_client_info": {
+          "package_name": "com.example.sandeep.main.ambulancia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316018344691-0j1p4gbq4negmnlonk4vu3dr0er1oq8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sandeep.main.ambulancia",
+            "certificate_hash": "1308a0a9a0bd2eb34c0637730ededad81c2c8c9f"
+          }
+        },
+        {
+          "client_id": "316018344691-s0i61m4h0k7cu4tnd140k8rfnpqf3plg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSbhStmtq_2PxvRXdnx5AknJOWkIRtkEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316018344691-s0i61m4h0k7cu4tnd140k8rfnpqf3plg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

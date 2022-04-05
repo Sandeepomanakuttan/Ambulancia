@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:background="@color/black"
-    tools:context=".View.Common.ControlActivity"
+    tools:context=".view.Common.ControlActivity"
     tools:layout_editor_absoluteX="-3dp"
     tools:layout_editor_absoluteY="32dp">
 

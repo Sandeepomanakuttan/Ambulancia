@@ -7,7 +7,7 @@
     android:background="@drawable/item_style">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img"
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,11 +25,11 @@
         android:fontFamily="serif"
         android:textColor="@color/orange"
         android:text="@string/profile_photo"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/img"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/txtStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imgNav"
         android:layout_width="60dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,5 +51,6 @@
         app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toEndOf="@+id/txt_docName"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_right" />
+        app:srcCompat="@drawable/ic_right"
+        tools:ignore="ContentDescription" />
 </androidx.constraintlayout.widget.ConstraintLayout>

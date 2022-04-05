@@ -1,4 +1,4 @@
-package com.example.sandeep.ambulancia.View.Registraction.Driver
+package com.example.sandeep.ambulancia.view.registraction.Driver
 
 import android.app.AlertDialog
 import android.content.Context
@@ -14,9 +14,10 @@ import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.ViewModelProvider
 import com.example.sandeep.ambulancia.R
 import com.example.sandeep.ambulancia.ViewModel.SelectedVehicleViewModel
+import com.example.sandeep.ambulancia.model.registraction.DriversData
 
 
-class SelectionVehicles : Fragment() , LifecycleObserver {
+class SelectionVehicles(val data: DriversData) : Fragment() , LifecycleObserver {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,17 +35,48 @@ class SelectionVehicles : Fragment() , LifecycleObserver {
 
         view?.let {
             val mini = view.findViewById(R.id.mini) as CardView
+            val advance=view.findViewById(R.id.advance) as CardView
+            val free=view.findViewById(R.id.free) as CardView
 
             mini.setOnClickListener {
 
+
                 val frag = requireActivity().supportFragmentManager
                         frag.commit{
-                            replace(R.id.registractionPage,VehicleDetails())
+
+                            replace(R.id.registractionPage,VehicleDetails(data,"mini"))
                             setReorderingAllowed(true)
 
                         }
 
             }
+
+            advance.setOnClickListener {
+
+
+                val frag = requireActivity().supportFragmentManager
+                frag.commit{
+
+                    replace(R.id.registractionPage,VehicleDetails(data,"advance"))
+                    setReorderingAllowed(true)
+
+                }
+
+            }
+
+            free.setOnClickListener {
+
+
+                val frag = requireActivity().supportFragmentManager
+                frag.commit{
+
+                    replace(R.id.registractionPage,VehicleDetails(data,"free"))
+                    setReorderingAllowed(true)
+
+                }
+
+            }
+
 
             requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner,object :OnBackPressedCallback(true){
                 override fun handleOnBackPressed() {

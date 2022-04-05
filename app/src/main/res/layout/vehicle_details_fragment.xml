@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/cmt"
     android:background="@color/black"
-    tools:context=".View.Registraction.Driver.VehicleDetails">
+    tools:context=".view.registraction.Driver.VehicleDetails">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -122,6 +122,7 @@
         app:layout_constraintTop_toBottomOf="@+id/recyclerView2" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
